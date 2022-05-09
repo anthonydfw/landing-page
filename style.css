@@ -94,6 +94,7 @@ button {
     color: #1F2937;
     text-align: center;
     margin-top: 32px;
+    margin-bottom: 16px;
 }
 
 .box {
@@ -117,5 +118,26 @@ button {
     display: flex;
     justify-content: center;
     margin: 32px;
-    gap: 32px;
+    gap: 48px;
+    margin-bottom: 72px;
+}
+
+.bodythree {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 72px 125px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    font-size: 18px;
+    font-weight: bolder;
+    justify-content: flex-end;
 }
