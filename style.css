@@ -141,3 +141,48 @@ button {
     font-weight: bolder;
     justify-content: flex-end;
 }
+
+.bodyfour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 0px;
+    margin: 48px 48px;
+}
+
+.card {
+    display: flex;
+    background-color: #3882F6;
+    padding: 32px 60px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 1px;
+}
+
+.action {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 32px 0px; 
+}
